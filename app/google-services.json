@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970657557895",
+    "firebase_url": "https://popotoan-safira.firebaseio.com",
+    "project_id": "popotoan-safira",
+    "storage_bucket": "popotoan-safira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970657557895:android:679be8572cc09ff6",
+        "android_client_info": {
+          "package_name": "com.example.safiraaini.safira_1202154315_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970657557895-c6o4e6312tb16964qje8m7u79uo4qc3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safiraaini.safira_1202154315_modul6",
+            "certificate_hash": "5e1205f7a5fc9f92dd101eac8474a6cf20487f45"
+          }
+        },
+        {
+          "client_id": "970657557895-tjak679j3id0o8fivlslj6eplqftv6s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFi9Lh_CbzaVJ55MdRuNBAzHvcWSv-IsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970657557895-tjak679j3id0o8fivlslj6eplqftv6s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

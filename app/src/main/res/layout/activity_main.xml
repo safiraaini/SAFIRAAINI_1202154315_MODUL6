@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#d0d2d1"
+android:id="@+id/rootlogin"
+android:padding="16sp"
+tools:context="com.example.safiraaini.safira_1202154315_modul6.MainActivity">
+
+<ImageView
+    android:id="@+id/ivDaisy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15dp"
+    app:srcCompat="@drawable/daisy" />
+
+<EditText
+    android:id="@+id/etemail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/ivDaisy"
+    android:layout_marginTop="102dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:hint="Email"
+    android:textAlignment="center"/>
+
+<EditText
+    android:id="@+id/etpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/etemail"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:hint="Password"
+    android:textAlignment="center"
+    />
+
+<Button
+    android:id="@+id/btnlogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/etpass"
+    android:layout_marginTop="25dp"
+    android:text="LOGIN"
+    android:onClick="masuk"
+    android:textColor="#ffeee2"
+    android:background="#545454" />
+
+
+<Button
+    android:id="@+id/btnregist"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@+id/btnlogin"
+    android:text="Register"
+    android:onClick="regist"
+    android:textColor="#ffeee2"
+    android:background="#545454"/>
+
+
+
+</RelativeLayout>
